@@ -1,0 +1,34 @@
+/* 为整个页面定义了全局的基础字体和基础字号 */
+html {
+  font-size: 10px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+  font-family: 'Open Sans', sans-serif; /* 字体类型 */
+  background-color: #00539f;
+}
+body {
+  width: 600px;
+  margin: 0 auto; /* 居中（上下外边距为0，左右平均分配） */
+  background-color: #ff9500; /* 内容和内边距背景色 */
+  padding: 0 20px 20px 20px; /* 上右下左 */
+  border: 5px solid black; /* 边框宽度 边框实线虚线 边框颜色 */
+}
+
+h1 {
+  margin: 0; /* 覆盖浏览器的默认样式 */
+  padding: 20px 0;
+  color: #00539f;
+  text-align: center;
+  text-shadow: 3px 3px 1px black;
+}
+/* 图片居中 */
+img {
+  width: 100%;
+  display: block; /* 图片默认是行内元素，需要转换为块级元素 */
+  margin: 0 auto;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
